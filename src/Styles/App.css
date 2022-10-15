@@ -1,0 +1,90 @@
+h1,h2,h3,h4,h5,h6,li,a,td,th,label,input,select,button,small,.btn,.h5, p {
+  font-family: 'Poppins';
+}
+ body {
+    background: #F9FAFB;
+}
+.sidebar {
+    max-width: 5.6rem;
+    height: 100vh;
+    background-color: #031b4d;
+}
+.navbar-shadow {
+    box-shadow: 16px 15px 11px -24px rgba(189,189,189,0.38);
+    -webkit-box-shadow: 16px 15px 11px -24px rgba(189,189,189,0.38);
+    -moz-box-shadow: 16px 15px 11px -24px rgba(189,189,189,0.38);
+}
+.sidebar-shadow {
+    box-shadow: 16px 29px 11px -24px rgba(189,189,189,0.38);
+    -webkit-box-shadow: 16px 29px 11px -24px rgba(189,189,189,0.38);
+    -moz-box-shadow: 16px 29px 11px -24px rgba(189,189,189,0.38);
+}
+.navbar {
+    padding: .76rem 0;
+}
+.sidebar .nav {
+    padding: 0 .7rem;
+}
+.sidebar .nav .nav-link {
+    margin: .5rem 0;
+}
+.sidebar .nav a {
+    font-size: 1.6em;
+    text-align: center;
+    color: #fff;
+}
+.sidebar .active {
+  background-color: #020f2b;
+}
+.begin {
+    padding: 0 1.1rem 1.1rem;
+    margin: 5.2rem 1.2rem 0 6.2rem;
+}
+.begin-shadow {
+  box-shadow: 3px 1px 45px -24px rgba(189,189,189,0.38);
+    -webkit-box-shadow: 3px 1px 45px -24px rgba(189,189,189,0.38);
+    -moz-box-shadow: 3px 1px 45px -24px rgba(189,189,189,0.38);
+}
+.begin .bread {
+  margin: 1.3rem 0 .9;
+}
+.main-begin {
+  background-color: #fff;
+  padding: 1.7rem;
+}
+.user-profile button {
+  padding: 0;
+}
+.user-profile img {
+  max-width: 40px;
+}
+.navbar .container-fluid {
+  margin-left: 7.5rem;
+}
+.user-profile .dropdown-menu[data-bs-popper] {
+  left: auto;
+  right: 0;
+}
+.user-profile .img-profile img {
+  max-width: 50px;
+}
+.user-profile .title-profile {
+  min-width: 10rem;
+}
+.user-profile .dropdown-item {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: .8rem 0;
+}
+.logo img {
+  max-width: 50px;
+}
+.table .dropdown button::after {
+  display: none;
+}
